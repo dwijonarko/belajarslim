@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "65b77d1c8fb6c1b7d9f3dcaaab681918",
+    "content-hash": "7055b4d1d3ca27b33d516cd22f2f7b7b",
     "packages": [
         {
             "name": "j4mie/idiorm",

@@ -34,4 +34,13 @@ $app->post('/save',function() use($app){
 	$app->flash('info', 'Data saved successfully');
 	$app->redirect('/');
 });
+
+$app->get('/login',function() use($app){
+  $app->render('api/login.tpl');
+});
+
+$app->get('/tasks',function() use($app){
+  $app->render('api/tasks.tpl');
+});
+
 $app->run();
